@@ -1,0 +1,73 @@
+{
+  "dataset_name": "Yahoo Finance Historical ETF Market Observations",
+  "source": "https://finance.yahoo.com/",
+  "api_library": "yfinance 1.7.0",
+  "retrieval_timestamp_utc": "2026-11-02T15:10:00.235971+00:00",
+  "date_range_requested": {
+    "start_date": "2021-01-01",
+    "end_date": "2025-12-31"
+  },
+  "actual_date_range": {
+    "start_date": "2021-01-04",
+    "end_date": "2025-12-30"
+  },
+  "tickers": [
+    "SPY",
+    "QQQ",
+    "AGG",
+    "GLD",
+    "VNQ"
+  ],
+  "total_records": 6270,
+  "fields": [
+    "Date",
+    "Ticker",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Adj Close",
+    "Volume",
+    "Dividends",
+    "Stock Splits"
+  ],
+  "ticker_summary": {
+    "SPY": {
+      "record_count": 1254,
+      "start_date": "2021-01-04",
+      "end_date": "2025-12-30",
+      "min_adj_close": 338.537841796875,
+      "max_adj_close": 685.0294799804688
+    },
+    "QQQ": {
+      "record_count": 1254,
+      "start_date": "2021-01-04",
+      "end_date": "2025-12-30",
+      "min_adj_close": 254.3990020751953,
+      "max_adj_close": 632.7967529296875
+    },
+    "AGG": {
+      "record_count": 1254,
+      "start_date": "2021-01-04",
+      "end_date": "2025-12-30",
+      "min_adj_close": 80.9722671508789,
+      "max_adj_close": 98.71857452392578
+    },
+    "GLD": {
+      "record_count": 1254,
+      "start_date": "2021-01-04",
+      "end_date": "2025-12-30",
+      "min_adj_close": 151.22999572753906,
+      "max_adj_close": 416.739990234375
+    },
+    "VNQ": {
+      "record_count": 1254,
+      "start_date": "2021-01-04",
+      "end_date": "2025-12-30",
+      "min_adj_close": 63.156620025634766,
+      "max_adj_close": 96.39071655273438
+    }
+  },
+  "is_synthetic": false,
+  "license_and_usage": "Data provided for educational and analytical research purposes via Yahoo Finance terms of service."
+}

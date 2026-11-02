@@ -1,0 +1,17 @@
+Metric,Portfolio,Benchmark (SPY),Difference
+Initial Capital ($),"$100,000.00","$100,000.00",$0.00
+Ending Capital ($),"$168,963.82","$199,563.32","$-30,599.50"
+Total Cumulative Return,68.96%,99.56%,-30.60%
+CAGR (Annualized Return),11.13%,14.91%,-3.78%
+Annualized Volatility (Risk),11.95%,17.11%,-5.17%
+Sharpe Ratio (Rf=3.5%),0.638,0.667,-0.028
+Sortino Ratio (Rf=3.5%),0.635,0.650,-0.015
+Maximum Drawdown (Peak-to-Trough),-22.70%,-24.50%,+1.80%
+Daily VaR (95% 1-day),-1.16%,-1.66%,+0.50%
+Daily VaR (99% 1-day),-2.04%,-2.93%,+0.89%
+Portfolio Beta (vs SPY),0.661,1.000,-0.339
+Jensen's Alpha (Annualized),0.08%,0.00%,+0.08%
+Tracking Error (Annualized),6.95%,0.00%,6.95%
+Information Ratio,-0.544,N/A,-0.544
+Best-Performing Asset (CAGR),GLD (17.05%),SPY,-
+Worst-Performing Asset (CAGR),AGG (-0.33%),SPY,-

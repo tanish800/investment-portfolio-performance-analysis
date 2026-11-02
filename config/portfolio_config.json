@@ -1,0 +1,51 @@
+{
+  "portfolio_name": "Multi-Asset Balanced ETF Portfolio",
+  "version": "1.0.0",
+  "author": "Senior Financial Data Analyst",
+  "base_currency": "USD",
+  "initial_portfolio_value": 100000.0,
+  "risk_free_rate": 0.035,
+  "risk_free_rate_description": "3.50% annualized rate based on average 3-month US Treasury Bill yield across observation period",
+  "trading_days_per_year": 252,
+  "rebalancing_frequency": "daily",
+  "rebalancing_methodology": "Constant-weight portfolio with daily end-of-day rebalancing back to target weights. Limitations: assumes zero friction/transaction costs and no tax drag.",
+  "benchmark_ticker": "SPY",
+  "date_range": {
+    "start_date": "2021-01-01",
+    "end_date": "2025-12-31",
+    "description": "Latest five complete calendar years of authentic historical trading data (2021-2025)"
+  },
+  "assets": {
+    "SPY": {
+      "name": "SPDR S&P 500 ETF Trust",
+      "target_weight": 0.30,
+      "asset_class": "U.S. Large-Cap Equities",
+      "role": "Core equity beta and large-cap market exposure"
+    },
+    "QQQ": {
+      "name": "Invesco QQQ Trust",
+      "target_weight": 0.20,
+      "asset_class": "U.S. Tech / Growth Equities",
+      "role": "High-growth technology and Nasdaq-100 exposure"
+    },
+    "AGG": {
+      "name": "iShares Core U.S. Aggregate Bond ETF",
+      "target_weight": 0.25,
+      "asset_class": "U.S. Fixed Income",
+      "role": "Capital preservation, income, and equity buffer"
+    },
+    "GLD": {
+      "name": "SPDR Gold Shares",
+      "target_weight": 0.15,
+      "asset_class": "Commodities / Precious Metals",
+      "role": "Inflation hedge and non-correlated safe-haven asset"
+    },
+    "VNQ": {
+      "name": "Vanguard Real Estate ETF",
+      "target_weight": 0.10,
+      "asset_class": "Real Estate (REITs)",
+      "role": "Real estate diversification and dividend yield"
+    }
+  },
+  "disclaimer": "These asset allocation weights represent illustrative analytical assumptions for portfolio performance analysis and backtesting, and do not represent actual investor holdings or individualized financial advice."
+}

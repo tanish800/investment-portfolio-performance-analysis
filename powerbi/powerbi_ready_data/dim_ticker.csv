@@ -1,0 +1,6 @@
+Ticker,Asset_Name,Asset_Class,Strategic_Role,Target_Weight,Target_Weight_Pct,Is_Benchmark
+SPY,SPDR S&P 500 ETF Trust,U.S. Large-Cap Equities,Core equity beta and large-cap market exposure,0.3,30.0%,True
+QQQ,Invesco QQQ Trust,U.S. Tech / Growth Equities,High-growth technology and Nasdaq-100 exposure,0.2,20.0%,False
+AGG,iShares Core U.S. Aggregate Bond ETF,U.S. Fixed Income,"Capital preservation, income, and equity buffer",0.25,25.0%,False
+GLD,SPDR Gold Shares,Commodities / Precious Metals,Inflation hedge and non-correlated safe-haven asset,0.15,15.0%,False
+VNQ,Vanguard Real Estate ETF,Real Estate (REITs),Real estate diversification and dividend yield,0.1,10.0%,False
